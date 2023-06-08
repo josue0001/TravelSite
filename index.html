@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    </head>
+        <title>My Travel Site</title>
+
+    <body>
+        <!-- -->
+
+        <!--h1 is a header tag and is basically a big bold piece of text -->
+        <h1>Welcome to my Travel Site</h1>
+
+        <!-- p is a paragraph tag and is basically small text for everydar content-->
+        <p>This site is all about where I want to travel.</p>
+        <h2>Here are some places I'd like to visit:</h2>
+
+        <!-- ul is an unordered list (bulletpoints) -->
+        <ul>
+            <!-- li is a list item -->
+            <!-- target="_blank" makes it so link is opened in new tab -->
+            <li>
+                <!-- when you want to include an image you use src="" 
+                    width="" will adjust the width of the image -->
+                <img src="./assets/Japan.jpg" width="50"/>
+                <a href="https://www.japan.travel/en/us/" target="_blank">Japan</a> </li>
+            <li>
+                <img src="./assets/Italy.jpg" width="50"/>
+                <a href="https://www.italia.it/en" target="_blank">Italy</a>
+            </li>
+            <li>
+                <img src="./assets/Iceland.jpg" width="50"/>
+                <a href="https://www.visiticeland.com" target="_blank">Iceland</a></li>
+            
+        </ul>
+
+        <!-- achor tag (a) lets us write lins to other html pages/websites -->
+
+        <a href="https://www.japan.travel/en/us/"> Link to Japan Travel Site</a>
+        <!-- Dummy Link for testing purposes -->
+        <a href="#">Dummy Link</a>
+
+        <!-- <table></table> table creates a table in HTML, we use the <tr></tr> tag--> 
+        <table>
+        <tr>
+            <!-- To create a header column in a row, we use the <th></th> tag -->
+            <th>Destinatino</th>
+            <th>Capital</th>
+            <th>Official Language</th>
+        </tr>
+        <tr>
+            <!-- <td></td> tag for table data = a piece of data in a row/column -->
+            <td>Japan</td>
+            <td>Tokyo</td>
+            <td>Japanese</td>
+        </tr>
+        <tr>
+            <!-- <td></td> tag for table data = a piece of data in a row/column -->
+            <td>Italy</td>
+            <td>Rome</td>
+            <td>Italian</td>
+        </tr>
+        <tr>
+            <!-- <td></td> tag for table data = a piece of data in a row/column -->
+            <td>Iceland</td>
+            <td>Reykjavik</td>
+            <td>Icelandic</td>
+        </tr>
+        </table>
+
+        <h1>Where do you want to go?</h1>
+        <!-- Creates a form -->
+        <form>
+            <!-- input creates an input field (can type whatever inside of it) -->
+        <input placeholder="Type the place you want to travel" />
+
+        <input type="button" value="This is my button"/>
+        <p> Select any that apply:</p>
+        <label for="japan">Japan</label>
+        <input type="checkbox" name="japan" id="japan"/>
+        <label for="italy">Italy</label>
+        <input type="checkbox" name="italy" id="italy"/>
+        <label for="iceland">Iceland</label>
+        <input type="checkbox" name="iceland" id="iceland"/>
+
+        <p>What is your favorite type of travel location?</p>
+        <select>
+            <option value="beach">Beach</option>
+            <option value="mountain">Mountain</option>
+            <option value="city">City</option>
+        </select>
+        <br/>
+
+        <textarea rows="10" cols="50"> Tell me a bit about yourself</textarea>
+        <br/>
+        <input type="submit" value="This is my submit button"/>
+        </form>
+
+        <!--  Divs stand for divisions, used for segmenting your html into chunks that are related-->
+        <div>
+            <!-- The <span> HTML element is a generic inline container for phrasing content -->
+            <span></span>
+
+        </div>
+
+
+    </body>
+
+
+
+</html> 
